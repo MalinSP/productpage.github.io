@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet" href="styles/slick.css">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script>
+	  	$(document).ready(function(){
+	  		//Testimonial Slider
+	  $('.testim_sliders').slick({
+	  	arrows: false,
+	  	dots: true,
+	    });
+	  //Top slider 
+	  $('.homeslider').slick({
+	  	prevArrow: '<button type="button" class="slick-prev"></button>',
+	  	nextArrow: '<button type="button" class="slick-next"></button>',
+	  	
+	    });
+	});
+
+  </script>
+
+
+	<title>Smoothie</title>
+</head>
+<body>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<header class="top_header" id="header">
+	<div class="wrapper">
+	<nav id="nav-bar" class="left_nav">
+		<ul>
+			<li><a class="active nav-link" href="#main_screen">Home</a></li>
+			<li><a class="nav-link" href="#footer">About</a></li>
+			<li><a class="nav-link" href="#blog">Blog</a></li>
+		</ul>
+	</nav>
+
+	<a href="main.html" class="logo" > 
+		<img src="img/logo.png"alt="logo" srcset="img/logo_x2.png 2x" id="header-img">
+	</a>
+
+		<nav class="right_nav">
+			<ul>
+			<li><a class="nav-link" href="#box_title_menu">Menu</a></li>
+			<li><a class="nav-link" href="#shop">Shop</a></li>
+			<li><a class="nav-link" href="#footer">Contact</a></li>
+		</ul>
+		</nav>
+</div>
+</header>
+<main>
+<div class="homeslider svg_style" id="main_screen">
+	<div class="slide">
+		<figure>
+			<img src="img/slide1.jpg" alt="">
+			<figcaption>
+				<div class="title_one">Fresh</div>
+				<div class="title_two">Detox</div>
+				<div class="title_three">Solution</div>
+			</figcaption>
+		</figure>
+	</div>
+	<div class="slide">
+		<figure>
+			<img src="img/slide2.jpg" alt="">
+			<figcaption>
+				<div class="title_one">Fresh</div>
+				<div class="title_two">Detox</div>
+				<div class="title_three">Solution</div>
+			</figcaption>
+		</figure>
+	</div>
+</div>
+
+<section class="homeabout">
+<div class="about_box wrapper">
+	<div class="item_data">
+		<article>
+			<h3>Triple Berry Smoothie</h3>
+			<p>A smoothie is so much more than blended fruit. It's an art with all of it's different elements blending perfectly together.</p>
+		</article>
+		<article>
+			<h3>Pick your fruit</h3>
+			<p>We chose strawberries, blackberries, raspberries, and bananas to be our base, but any combo of fruit is great.</p>
+		</article>
+		<article>
+			<h3>Fresh or frozen fruit?</h3>
+			<p>For smoothies, frozen fruit is best. It blends up thicker than fresh and gives you a really cold smoothie to enjoy when done.</p>
+		</article>
+	</div>
+
+		<div class="item_data">
+			<img src="img/homecenter.jpg" alt="">
+		</div>
+
+	<div class="item_data">
+		<article>
+			<h3>Add a thickener.</h3>
+			<p>We use unsweetened greek yogurt in our smoothie, but peanut butter, almond butter, or vanilla yogurt are all great options.</p>
+		</article>
+		<article>
+			<h3>Choose a liquid</h3>
+			<p>Almond milk is great for the added nutty flavor, but coconut milk pairs well with a tropical smoothie.</p>
+		</article>
+		<article>
+			<h3>Throw some add-ins in</h3>
+			<p>Add some spinach or kale for additional nutrition or flax seeds for omega-3s. Flavors like fresh mint, vanilla extract, cinnamon, or honey</p>
+		</article>
+	</div>
+</div>
+</section>
+
+<section class="home_shop">
+	<h2 class="box_title" id="shop">Natural Smoothies</h2>
+	<span class="subtitle">Drink natural to be stronger</span>
+	
+
+
+<div class="shop_items">
+	<div class="wrapper">
+		<div class="product">
+			<div class="thumbnail">
+					<img src="img/shop_item1.jpg" alt="">
+					<div class="add_to_cart"><a href="">Add to cart</a></div>
+			</div>		
+				<h3>Fresh Smoothie</h3>
+				<span class="price">$13</span>
+		
+		</div>
+		<div class="product">
+			<div class="thumbnail">
+					<img src="img/shop_item2.jpg" alt="">
+					<div class="add_to_cart"><a href="">Add to cart</a></div>
+			</div>		
+				<h3>Natural Juice</h3>
+				<span class="price">$11</span>
+		
+		</div>
+		<div class="product">
+			<div class="thumbnail">
+					<img src="img/shop_item3.jpg" alt="">
+					<div class="add_to_cart"><a href="">Add to cart</a></div>
+			</div>		
+				<h3>Ice Smoothie</h3>
+				<span class="price">$7</span>
+		
+		</div>
+		<div class="product">
+			<div class="thumbnail">
+					<img src="img/shop_item4.jpg" alt="">
+					<div class="add_to_cart"><a href="">Add to cart</a></div>
+			</div>		
+				<h3>Fresh Smoothie Cream</h3>
+				<span class="price">$3</span>
+		
+		</div>
+		<div class="product">
+			<div class="thumbnail">
+					<img src="img/shop_item5.jpg" alt="">
+					<div class="add_to_cart"><a href="">Add to cart</a></div>
+			</div>		
+				<h3>Fruits Smoothie</h3>
+				<span class="price">$13</span>
+		
+		</div>
+		<div class="product">
+			<div class="thumbnail">
+					<img src="img/shop_item6.jpg" alt="">
+					<div class="add_to_cart"><a href="">Add to cart</a></div>
+			</div>		
+				<h3>Natural Ice Juice</h3>
+				<span class="price">$11</span>
+		
+		</div>
+		<div class="product">
+			<div class="thumbnail">
+					<img src="img/shop_item7.jpg" alt="">
+					<div class="add_to_cart"><a href="">Add to cart</a></div>
+			</div>		
+				<h3>Pink Smoothie</h3>
+				<span class="price">$13</span>
+		
+		</div>
+		<div class="product">
+			<div class="thumbnail">
+					<img src="img/shop_item8.jpg" alt="">
+					<div class="add_to_cart"><a href="">Add to cart</a></div>
+			</div>		
+				<h3>Fresh Smoothie</h3>
+				<span class="price">$3</span>
+		
+		</div>
+		
+	</div>
+	
+</div>
+</section>
+
+<section class="home_subscribe svg_style">
+	<div class="wrapper">
+		<div class="col_left">
+			<div class="thumbnail">
+				<img src="img/menu2.png">
+			</div>
+		</div>
+		<div class="col_right">
+			<h2 class="box_title">Subscribe here</h2>
+	<span class="subtitle">to our news and sale promotions</span>
+	<form class="subscribe" action="index.html" method="" id="form">
+		<input type="email" name="email" placeholder="email" class="email" id="email">
+		<input type="Submit" class="submit" value="Subscribe"  id="submit">		
+	</form>
+		</div>
+	</div>
+</section>
+
+<section class="home_blog" id="blog">
+	<h2 class="box_title">Recent from Blog</h2>
+	<span class="subtitle">Read and follow our latest posts</span>
+
+<div class="blog_archive wrapper">
+	<article class="post">
+		<div class="thumbnail">
+			<img src="img/blog1.jpg" alt="">
+			<span>20 Feb 19</span>
+		</div>
+		<h3><a href="">Lorem ipsum dolor sit amet</a></h3>
+		<p>Quisque vitae cursus orci, ac dignissim odio. Ut dapibus aliquam neque tempus aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+		<div class="info_line">
+			Posted in <a href="">Smoothies</a> by <a href="">Admin</a> 
+		</div>
+	</article>
+	<article class="post">
+		<div class="thumbnail">
+			<img src="img/blog2.jpg" alt="">
+			<span>20 Feb 19</span>
+		</div>
+		<h3><a href="">Lorem ipsum dolor sit amet</a></h3>
+		<p>Quisque vitae cursus orci, ac dignissim odio. Ut dapibus aliquam neque tempus aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+		<div class="info_line">
+			Posted in <a href="">Smoothies</a> by <a href="">Admin</a> 
+		</div>
+	</article>
+	<article class="post">
+		<div class="thumbnail">
+			<img src="img/blog3.jpg" alt="">
+			<span>20 Feb 19</span>
+		</div>
+		<h3><a href="">Lorem ipsum dolor sit amet</a></h3>
+		<p>Quisque vitae cursus orci, ac dignissim odio. Ut dapibus aliquam neque tempus aliquet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+		<div class="info_line">
+			Posted in <a href="">Smoothies</a> by <a href="">Admin</a> 
+		</div>
+	</article>
+</div>
+	
+</section>
+
+<section class="our_menu svg_style" id="box_title_menu">
+	<div class="wrapper">
+		<h2 class="box_title">Our Menu</h2>
+		<span class="subtitle">Tasty and Natural</span>
+
+		<div class="menu_list">
+			<div class="menu_item">
+			<div class="thumbnail">
+				<img src="img/menu_item1.png" alt="">
+			</div>
+			<div class="info">
+				<h3>Tasty Banana Smoothie</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing  elit. ipsum dolor sit amet, consectetur adipiscing.</p>
+			</div>
+				<div class="price">
+					$38
+				</div>
+			</div>
+
+			<div class="menu_item">
+			<div class="thumbnail">
+				<img src="img/menu_item2.png" alt="">
+			</div>
+			<div class="info">
+				<h3>Tasty Banana Smoothie</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing  elit. ipsum dolor sit amet, consectetur adipiscing.</p>
+			</div>
+				<div class="price">
+					$28
+				</div>
+			</div><div class="menu_item">
+			<div class="thumbnail">
+				<img src="img/menu_item3.png" alt="">
+			</div>
+			<div class="info">
+				<h3>Tasty Banana Smoothie</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing  elit. ipsum dolor sit amet, consectetur adipiscing.</p>
+			</div>
+				<div class="price">
+					$31
+				</div>
+			</div><div class="menu_item">
+			<div class="thumbnail">
+				<img src="img/menu_item4.png" alt="">
+			</div>
+			<div class="info">
+				<h3>Tasty Banana Smoothie</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing  elit. ipsum dolor sit amet, consectetur adipiscing.</p>
+			</div>
+				<div class="price">
+					$57
+				</div>
+			</div><div class="menu_item">
+			<div class="thumbnail">
+				<img src="img/menu_item5.png" alt="">
+			</div>
+			<div class="info">
+				<h3>Tasty Banana Smoothie</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing  elit. ipsum dolor sit amet, consectetur adipiscing.</p>
+			</div>
+				<div class="price">
+					$38
+				</div>
+			</div><div class="menu_item">
+			<div class="thumbnail">
+				<img src="img/menu_item6.png" alt="">
+			</div>
+			<div class="info">
+				<h3>Tasty Banana Smoothie</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing  elit. ipsum dolor sit amet, consectetur adipiscing.</p>
+			</div>
+				<div class="price">
+					$18
+				</div>
+			</div><div class="menu_item">
+			<div class="thumbnail">
+				<img src="img/menu_item7.png" alt="">
+			</div>
+			<div class="info">
+				<h3>Tasty Banana Smoothie</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing  elit. ipsum dolor sit amet, consectetur adipiscing.</p>
+			</div>
+				<div class="price">
+					$91
+				</div>
+			</div><div class="menu_item">
+			<div class="thumbnail">
+				<img src="img/menu_item8.png" alt="">
+			</div>
+			<div class="info">
+				<h3>Tasty Banana Smoothie</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing  elit. ipsum dolor sit amet, consectetur adipiscing.</p>
+			</div>
+				<div class="price">
+					$28
+				</div>
+			</div>
+			</div>	
+		</div>
+</section>
+
+<section class="home_testimonials">
+	<h2 class="box_title">Testimonials</h2>
+		<span class="subtitle">What other say about us</span>
+
+		<div class="testim_sliders">
+			<div class="testim_item">
+				<h2 class="author_name">Ava Addams</h2>
+				<p class="author_description">Lelit. Etiam eget feugiat ante. Mauris vestibulum turpis purus, vulputate vehicula magna aliquet et. Etiam in arcu ut tellus fringilla blandit.
+				</p>
+				<a class="author_link" href="">More details</a>
+				
+			</div><div class="testim_item">
+				<h2 class="author_name">Ava Addams 2</h2>
+				<p class="author_description">Lelit. Etiam eget feugiat ante. Mauris vestibulum turpis purus, vulputate vehicula magna aliquet et. Etiam in arcu ut tellus fringilla blandit.
+				</p>
+				<a class="author_link" href="">More details</a>
+				
+			</div><div class="testim_item">
+				<h2 class="author_name">Ava Addams 3</h2>
+				<p class="author_description">Lelit. Etiam eget feugiat ante. Mauris vestibulum turpis purus, vulputate vehicula magna aliquet et. Etiam in arcu ut tellus fringilla blandit.
+				</p>
+				<a class="author_link" href="">More details</a>
+				
+			</div>
+
+			
+		</div>
+	
+
+</section>
+
+<section class="video">
+	<h2 class="box_title">How we make it</h2>
+	<span class="subtitle"> Look at our process</span>
+	<div class="wrapper"><iframe id="video" class="video_screen"width="560" height="315" src="https://www.youtube.com/embed/YuDhbLQtt2k" 
+	title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+	<div class="top_footer" id="footer">
+		<div class="wrapper">
+			<div class="footer_item opening">
+				<h5 class="footer_title">Opening Hours</h5>
+				Monday / <span>9:00 – 20:00</span><br>
+				Tuesday / <span>9:00 – 20:00</span><br>
+				Wednesday / <span>9:00 – 20:00</span><br>
+				Thursday / <span>9:00 – 20:00</span><br>
+				Friday / <span>9:00 – 20:00</span><br>
+				Saturday / <span>9:00 – 20:00</span><br>
+				Sunday / <span>CLOSED</span>
+		</div>
+		<div class="footer_item contact">
+			<h5 class="footer_title">Contact Info</h5>
+			<img src="img/contact1.svg" alt="">+38 899 4320 32<br>
+			<img src="img/contact2.svg" alt="">hai@aletheme.com<br>
+			<img src="img/contact3.svg" alt="">France, Paris, Lille de la Cite 1p<br>
+
+		</div>
+		<div class="footer_item instagram">
+			<h5 class="footer_title">Instagram feed</h5>
+			<ul>
+				<li><a href=""><img src="img/in1.png"></a></li>
+				<li><a href=""><img src="img/in2.png"></a></li>
+				<li><a href=""><img src="img/in3.png"></a></li>
+				<li><a href=""><img src="img/in4.png"></a></li>
+				<li><a href=""><img src="img/in5.png"></a></li>
+				<li><a href=""><img src="img/in6.png"></a></li>
+			</ul>
+			</div>
+		</div>
+		
+	</div>
+	<div class="bottom_footer">
+		<div class="wrapper">
+		<p>Copyrights 2020. AletTheme for WordPress</p>
+		<ul class="social">
+			<li><a href=""><img src="img/social1f.svg" alt=""></a></li>
+			<li><a href=""><img src="img/social2f.svg" alt=""></a></li>
+			<li><a href=""><img src="img/social3f.svg" alt=""></a></li>
+			<li><a href=""><img src="img/social4f.svg" alt=""></a></li>
+		</ul>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
